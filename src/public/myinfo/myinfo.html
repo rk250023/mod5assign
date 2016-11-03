@@ -1,0 +1,8 @@
+<div>
+ <div ng-if="myctrl.user.short_stat == 'good'">
+<h3>My Sign up details</h3>
+<a>Name: {{myctrl.user.firstname}} {{myctrl.user.lastname}}</a><br>
+<a>Email id: {{myctrl.user.email}}</a><br>
+ <a>Phone no: {{myctrl.user.phone}}</a><br> 
+ <a>Favorite item: {{myctrl.user.item_name}}</a><img class="img-responsive" width="250" height="150" ng-src="{{myctrl.basePath}}/images/{{myctrl.user.short_name}}.jpg" alt="{{myctrl.user.short_name}}">
+  </div>

@@ -1,0 +1,1 @@
+!function(){"use strict";function o(o,t,e){var s=this;s.basePath=e,s.user=o.getSignupinfo(),console.log("Usr obj from myinf",s.user.short_stat),void 0===s.user.short_stat&&(t.go("public.ack1"),console.log("Test "))}angular.module("public").controller("MyinfoController",o),o.$inject=["MenuService","$state","ApiPath"]}();
